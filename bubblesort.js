@@ -28,6 +28,6 @@ function swap(array,j) {
     
 }
 
-console.log(bubbleSort(arrayDesordenado))
-console.log(' ' + swapCounter)
+// console.log(bubbleSort(arrayDesordenado))
+// console.log(' ' + swapCounter)
 // 1- 8 y 2

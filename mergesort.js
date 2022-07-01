@@ -6,15 +6,15 @@ function split(array) {
 }
 
 function mergeSort(array){
-    console.log('vuelta')
+    //console.log('vuelta')
     if (array.length<2) return array
     let [primera,segunda] = split(array)
-    console.log('primera: '+ primera)
-    console.log('segunda: '+ segunda)
+    // console.log('primera: '+ primera)
+    // console.log('segunda: '+ segunda)
     let aux1 = mergeSort(primera)
-    console.log('mergeSort aux1 '+ aux1)
+    // console.log('mergeSort aux1 '+ aux1)
     let aux2 = mergeSort(segunda)
-    console.log('mergeSort aux2 '+ aux2)
+    // console.log('mergeSort aux2 '+ aux2)
     return merge(aux1,aux2)
     //return split(array)
 
@@ -33,4 +33,4 @@ function merge(arr1,arr2){
 }
 
 //console.log(merge([5,6,7],[1,2,8]))
-console.log(mergeSort([6,5,4,3,2,1]))
+// console.log(mergeSort([6,5,4,3,2,1]))
